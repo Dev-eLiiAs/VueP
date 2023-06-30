@@ -5,5 +5,5 @@
 <style>
 </style>
 <script setup>
-import DescriptionView from "@/views/DescriptionView.vue";
+import DescriptionView from "@/components/DescriptionView.vue";
 </script>
