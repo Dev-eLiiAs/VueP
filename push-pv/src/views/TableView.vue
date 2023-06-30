@@ -1,5 +1,5 @@
 <template>
-    <div id="app-container">
+    <div id="app-container" class="max-w-5xl mx-auto">
         <DxDataGrid id="dataGrid"
                     :data-source="employees"
                     key-expr="EmployeeID"
