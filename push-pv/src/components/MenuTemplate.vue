@@ -68,7 +68,7 @@
                         <XMarkIcon class="h-6 w-6" aria-hidden="true" />
                     </button>
                 </div>
-            </DialogPanel>
+                </DialogPanel>
         </Dialog>
     </header>
 </template>
