@@ -5,6 +5,7 @@ import FormTemplate from "@/components/FormTemplate.vue";
 import MenuTemplate from "@/components/MenuTemplate.vue";
 import LoginView from "@/views/LoginView.vue";
 import DataGrid from "@/views/DataGrid.vue";
+import AboutView from "@/views/AboutView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -37,10 +38,11 @@ const router = createRouter({
     {
       path: '/about',
       name: 'about',
+      component: AboutView
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
+      //component: () => import('../views/AboutView.vue')
     }
   ]
 })

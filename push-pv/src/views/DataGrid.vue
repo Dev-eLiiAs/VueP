@@ -1,4 +1,5 @@
 <template>
+    <h2 class="mb-3 font-bold text-center tracking-tight text-black sm:text-6xl">Consulte los datos</h2>
     <DxDataGrid
             id="gridContainer"
             :data-source="suppliersData"
