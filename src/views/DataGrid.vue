@@ -32,7 +32,7 @@ import {
 } from 'devextreme-vue/data-grid';
 
 import { createStore } from 'devextreme-aspnet-data-nojquery';
-import MasterDetail from '@/components/MasterDetail.vue';
+import MasterDetail from '@/components/DataGrid/MasterDetail.vue';
 
 const url = 'https://js.devexpress.com/Demos/Mvc/api/DataGridAdvancedMasterDetailView';
 

@@ -27,8 +27,8 @@
 <script>
 
 import { DxForm, DxItem, DxLabel } from 'devextreme-vue/form';
-import ProductSelectBox from '@/components/ProductSelectBox.vue';
-import OrderHistory from '@/components/OrderHistory.vue';
+import ProductSelectBox from '@/components/DataGrid/ProductSelectBox.vue';
+import OrderHistory from '@/components/DataGrid/OrderHistory.vue';
 
 export default {
     components: {

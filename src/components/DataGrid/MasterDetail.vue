@@ -24,8 +24,8 @@
 <script>
 import { DxTabPanel, DxItem } from 'devextreme-vue/tab-panel';
 
-import OrdersTab from '@/components/OdersTab.vue';
-import AddressTab from '@/components/AddressTab.vue';
+import OrdersTab from '@/components/DataGrid/OdersTab.vue';
+import AddressTab from '@/components/DataGrid/AddressTab.vue';
 
 export default {
     components: {

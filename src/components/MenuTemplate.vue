@@ -78,9 +78,9 @@ import { ref } from 'vue'
 import {
     Dialog,
     DialogPanel,
-    Disclosure,
+    /*Disclosure,
     DisclosureButton,
-    DisclosurePanel,
+    DisclosurePanel,*/
     Popover,
     PopoverButton,
     PopoverGroup,
